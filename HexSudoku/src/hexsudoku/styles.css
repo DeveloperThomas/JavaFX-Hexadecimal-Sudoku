@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 26, 2019, 11:02:52 PM
+    Author     : Tomasz Zawistowski
+*/
+
+.choice-box .context-menu { -fx-background-color: black; }
+/*.choice-box .menu-item:focused { -fx-background-color: orange; }*/
+.choice-box .menu-item > .label { -fx-text-fill: white; }
+.choice-box .menu-item:focused > .label { -fx-text-fill: black; }
+.choice-box { -fx-font-family: SansSerif; -fx-font-size: 18px; -fx-alignment: center; }
+
+.root {
+    -fx-background-image: url("/resources/background.png");
+    -fx-background-position: center center;
+}

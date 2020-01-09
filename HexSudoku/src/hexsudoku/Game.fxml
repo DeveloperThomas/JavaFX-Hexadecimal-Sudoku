@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="background_big" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hexsudoku.GameController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="80.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="gameButton0" mnemonicParsing="false" onAction="#gameButton0Clicked" prefHeight="40.0" prefWidth="40.0" text="0">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton1" mnemonicParsing="false" onAction="#gameButton1Clicked" prefHeight="40.0" prefWidth="40.0" text="1">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton2" mnemonicParsing="false" onAction="#gameButton2Clicked" prefHeight="40.0" prefWidth="40.0" text="2">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton3" mnemonicParsing="false" onAction="#gameButton3Clicked" prefHeight="40.0" prefWidth="40.0" text="3">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton4" mnemonicParsing="false" onAction="#gameButton4Clicked" prefHeight="40.0" prefWidth="40.0" text="4">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton5" mnemonicParsing="false" onAction="#gameButton5Clicked" prefHeight="40.0" prefWidth="40.0" text="5">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton6" mnemonicParsing="false" onAction="#gameButton6Clicked" prefHeight="40.0" prefWidth="40.0" text="6">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton7" mnemonicParsing="false" onAction="#gameButton7Clicked" prefHeight="40.0" prefWidth="40.0" text="7">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton8" mnemonicParsing="false" onAction="#gameButton8Clicked" prefHeight="40.0" prefWidth="40.0" text="8">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButton9" mnemonicParsing="false" onAction="#gameButton9Clicked" prefHeight="40.0" prefWidth="40.0" text="9">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButtonA" mnemonicParsing="false" onAction="#gameButtonAClicked" prefHeight="40.0" prefWidth="40.0" text="A">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButtonB" mnemonicParsing="false" onAction="#gameButtonBClicked" prefHeight="40.0" prefWidth="40.0" text="B">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButtonC" mnemonicParsing="false" onAction="#gameButtonCClicked" prefHeight="40.0" prefWidth="40.0" text="C">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButtonD" mnemonicParsing="false" onAction="#gameButtonDClicked" prefHeight="40.0" prefWidth="40.0" text="D">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButtonE" mnemonicParsing="false" onAction="#gameButtonEClicked" prefHeight="40.0" prefWidth="40.0" text="E">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="gameButtonF" mnemonicParsing="false" onAction="#gameButtonFClicked" prefHeight="40.0" prefWidth="40.0" text="F">
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <right>
+      <VBox prefHeight="620.0" prefWidth="180.0" BorderPane.alignment="CENTER_LEFT">
+         <padding>
+            <Insets left="20.0" right="40.0" top="10.0" />
+         </padding>
+         <children>
+            <Label fx:id="gameLabelTime" alignment="CENTER" contentDisplay="CENTER" prefHeight="115.0" prefWidth="144.0" style="-fx-background-color: grey;" textAlignment="CENTER" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+            </Label>
+            <BorderPane prefHeight="40.0" prefWidth="200.0">
+               <center>
+                  <Button fx:id="gameButtonPauseOrResume" mnemonicParsing="false" onAction="#showOrHideCanvas" prefHeight="40.0" prefWidth="144.0" text="Pause / Resume" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </center>
+               <VBox.margin>
+                  <Insets bottom="30.0" top="40.0" />
+               </VBox.margin>
+            </BorderPane>
+            <BorderPane prefHeight="40.0" prefWidth="109.0">
+               <center>
+                  <Button fx:id="gameButtonSubmit" mnemonicParsing="false" onAction="#checkSolution" prefHeight="40.0" prefWidth="144.0" text="Submit" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+               </center>
+               <VBox.margin>
+                  <Insets bottom="30.0" left="10.0" right="10.0" top="30.0" />
+               </VBox.margin>
+            </BorderPane>
+            <BorderPane prefHeight="40.0" prefWidth="200.0">
+               <center>
+                  <Button fx:id="gameButtonLeave" mnemonicParsing="false" onAction="#leaveGame" prefHeight="40.0" prefWidth="144.0" text="Leave" textFill="#f82828" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                     <BorderPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </center>
+               <VBox.margin>
+                  <Insets bottom="30.0" top="30.0" />
+               </VBox.margin>
+            </BorderPane>
+            <BorderPane prefHeight="106.0" prefWidth="120.0">
+               <center>
+                  <Label fx:id="gameLabelResult" alignment="CENTER" contentDisplay="CENTER" prefHeight="88.0" prefWidth="100.0" textAlignment="CENTER" textFill="#f82828" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </center>
+            </BorderPane>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </right>
+   <center>
+      <Canvas fx:id="gameCanvas" height="560.0" width="560.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
